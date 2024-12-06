@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>HTML5 Documentation</header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#New_Elements">New Elements</a>
+        <a class="nav-link" href="#Semantic_Tags">Semantic Tags</a>
+        <a class="nav-link" href="#APIs">APIs</a>
+        <a class="nav-link" href="#Forms">Forms</a>
+    </nav>
+    <main id="main-doc">
+        <section id="Introduction" class="main-section">
+            <header>Introduction</header>
+            <p>HTML5 is the latest version of Hypertext Markup Language (HTML), designed to improve the language with
+                support for the latest multimedia while keeping it easily readable by humans and consistently understood
+                by computers.</p>
+            <p>Introduced in 2008, HTML5 provides new elements and attributes, enhanced multimedia support, and better
+                performance.</p>
+            <p>Its aim is to reduce reliance on plugins and external libraries for multimedia content.</p>
+            <code>&lt;!DOCTYPE html&gt;</code>: Defines that this document is an HTML5 document.
+            <ul>
+                <li>Released in 2014 as a W3C Recommendation.</li>
+                <li>Enhanced semantic structure.</li>
+                <li>Improved multimedia support.</li>
+            </ul>
+        </section>
+        <section id="New_Elements" class="main-section">
+            <header>New Elements</header>
+            <p>HTML5 introduces several new elements to enhance functionality and semantics:</p>
+            <ul>
+                <li><code>&lt;article&gt;</code>: Defines self-contained content.</li>
+                <li><code>&lt;section&gt;</code>: Represents sections of a document.</li>
+                <li><code>&lt;header&gt;</code> and <code>&lt;footer&gt;</code>: Define header and footer content.</li>
+                <li><code>&lt;aside&gt;</code>: Represents content related to the main content.</li>
+                <li><code>&lt;main&gt;</code>: Specifies the main content area of a document.</li>
+            </ul>
+            <p>These elements provide a clear structure and better accessibility for web pages.</p>
+        </section>
+        <section id="Semantic_Tags" class="main-section">
+            <header>Semantic Tags</header>
+            <p>Semantic tags are an important feature of HTML5, providing meaning to the content they enclose.</p>
+            <p>Common semantic tags include:</p>
+            <ul>
+                <li><code>&lt;nav&gt;</code>: Defines navigation links.</li>
+                <li><code>&lt;figure&gt;</code>: Represents self-contained content, like images with captions.</li>
+                <li><code>&lt;time&gt;</code>: Encodes date or time information.</li>
+            </ul>
+            <p>For example:</p>
+            <code>&lt;nav&gt;&lt;a href="#section"&gt;Go to Section&lt;/a&gt;&lt;/nav&gt;</code>
+            <p>Using semantic tags improves search engine optimization (SEO) and accessibility.</p>
+        </section>
+        <section id="APIs" class="main-section">
+            <header>APIs</header>
+            <p>HTML5 includes a variety of APIs that enhance the user experience:</p>
+            <ul>
+                <li>Canvas API: Allows drawing graphics and animations directly in the browser.</li>
+                <li>Geolocation API: Provides geographic location of the user.</li>
+                <li>Web Storage API: Offers local and session storage for data persistence.</li>
+            </ul>
+            <p>Example usage of Canvas API:</p>
+            <code>let canvas = document.getElementById('myCanvas').getContext('2d');</code>
+            <p>These APIs reduce the dependency on third-party libraries.</p>
+        </section>
+        <section id="Forms" class="main-section">
+            <header>Forms</header>
+            <p>HTML5 introduces new input types and attributes for forms, simplifying user input.</p>
+            <p>New input types include:</p>
+            <ul>
+                <li><code>date</code>: Allows selecting a date.</li>
+                <li><code>email</code>: Validates email addresses.</li>
+                <li><code>range</code>: Creates sliders for numerical input.</li>
+            </ul>
+            <p>For example:</p>
+            <code>&lt;input type="email" placeholder="Enter your email"&gt;</code>
+            <p>These features improve user interaction and validation without additional scripting.</p>
+        </section>
+    </main>
+</body>
+
+</html>
